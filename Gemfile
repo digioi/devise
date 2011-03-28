@@ -2,6 +2,7 @@ source "http://rubygems.org"
 
 gemspec
 
+gem 'orm_adapter',            :git => 'https://github.com/digioi/orm_adapter.git'
 gem "rails", "~> 3.0.4"
 gem "oa-oauth", '~> 0.2.0', :require => "omniauth/oauth"
 gem "oa-openid", '~> 0.2.0', :require => "omniauth/openid"
